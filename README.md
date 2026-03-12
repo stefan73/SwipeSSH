@@ -1,7 +1,19 @@
 # SwipeSSH
 
+<p align="center">
+  <img src="docs/images/icon.png" alt="SwipeSSH icon" width="128" />
+</p>
+
 SwipeSSH is a lightweight SSH client for Android focused on a smooth multi-session workflow.
 Sessions stay active while you switch between them, and you can quickly move between terminals with a swipe gesture. Connection settings can be stored for reuse, and the terminal supports full ANSI features.
+
+## Screenshots
+
+<p align="center">
+  <img src="docs/images/login-page.jpg" alt="SwipeSSH connection screen" width="250" />
+  <img src="docs/images/terminal-htop.jpg" alt="SwipeSSH terminal with htop" width="250" />
+  <img src="docs/images/terminal-ls.jpg" alt="SwipeSSH terminal listing" width="250" />
+</p>
 
 ## Features
 
