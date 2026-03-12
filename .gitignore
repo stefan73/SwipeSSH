@@ -1,0 +1,15 @@
+.gradle/
+/local.properties
+/.idea/
+.DS_Store
+/build/
+/app/build/
+/captures/
+.externalNativeBuild/
+
+/com/
+/net/
+
+/app/release/
+/termux-app-upstream/
+
