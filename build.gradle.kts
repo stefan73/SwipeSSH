@@ -4,4 +4,6 @@ plugins {
     id("org.jetbrains.kotlin.kapt") version "1.9.24" apply false
 }
 
-layout.buildDirectory.set(file("${System.getenv("LOCALAPPDATA")}/CodexBuild/SshTerminal/root"))
+System.getenv("LOCALAPPDATA")?.let {
+    layout.buildDirectory.set(file("$it/CodexBuild/SshTerminal/root"))
+}

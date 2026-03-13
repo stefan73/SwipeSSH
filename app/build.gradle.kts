@@ -4,7 +4,9 @@ plugins {
     id("org.jetbrains.kotlin.kapt")
 }
 
-layout.buildDirectory.set(file("${System.getenv("LOCALAPPDATA")}/CodexBuild/SshTerminal/app"))
+System.getenv("LOCALAPPDATA")?.let {
+    layout.buildDirectory.set(file("$it/CodexBuild/SshTerminal/app"))
+}
 
 android {
     namespace = "com.codex.sshterminal"
@@ -86,4 +88,3 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 }
-
