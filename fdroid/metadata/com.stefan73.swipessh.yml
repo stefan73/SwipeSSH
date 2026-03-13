@@ -1,0 +1,36 @@
+Categories:
+  - Internet
+License: GPL-3.0-only
+AuthorName: stefan73
+WebSite: https://github.com/stefan73/SwipeSSH
+SourceCode: https://github.com/stefan73/SwipeSSH
+IssueTracker: https://github.com/stefan73/SwipeSSH/issues
+Changelog: https://github.com/stefan73/SwipeSSH/releases
+Summary: Lightweight Android SSH client with title-bar swipe session switching
+Description: |
+  SwipeSSH is a lightweight SSH client for Android focused on a smooth multi-session workflow.
+
+  Sessions stay active while you switch between them, and you can quickly move between terminals by swiping on the connection title bar.
+
+  Features:
+  * Swipe between multiple SSH sessions on the connection title bar
+  * Sessions remain active in the background
+  * Store and reuse connection settings
+  * Full ANSI terminal support
+  * Host key verification
+
+RepoType: git
+Repo: https://github.com/stefan73/SwipeSSH.git
+UpdateCheckMode: Tags
+UpdateCheckData: app/build.gradle.kts|versionCode\s*=\s*([0-9]+)|app/build.gradle.kts|versionName\s*=\s*"([^"]+)"
+AutoUpdateMode: Version
+CurrentVersion: 0.1.0
+CurrentVersionCode: 1
+
+Builds:
+  - versionName: 0.1.0
+    versionCode: 1
+    commit: v0.1.0
+    gradle:
+      - yes
+

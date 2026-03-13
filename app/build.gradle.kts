@@ -9,11 +9,11 @@ System.getenv("LOCALAPPDATA")?.let {
 }
 
 android {
-    namespace = "com.codex.sshterminal"
+    namespace = "com.stefan73.swipessh"
     compileSdk = 36
 
     defaultConfig {
-        applicationId = "com.codex.sshterminal"
+        applicationId = "com.stefan73.swipessh"
         minSdk = 26
         targetSdk = 36
         versionCode = 1
@@ -88,3 +88,4 @@ dependencies {
     debugImplementation("androidx.compose.ui:ui-tooling")
     debugImplementation("androidx.compose.ui:ui-test-manifest")
 }
+

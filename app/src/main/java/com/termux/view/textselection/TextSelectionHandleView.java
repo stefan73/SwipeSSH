@@ -13,7 +13,7 @@ import android.view.ViewParent;
 import android.view.WindowManager;
 import android.widget.PopupWindow;
 
-import com.codex.sshterminal.R;
+import com.stefan73.swipessh.R;
 import com.termux.view.TerminalView;
 import com.termux.view.support.PopupWindowCompatGingerbread;
 
@@ -350,3 +350,4 @@ public class TextSelectionHandleView extends View {
     }
 
 }
+

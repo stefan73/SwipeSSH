@@ -15,7 +15,7 @@ import androidx.annotation.Nullable;
 
 import com.termux.terminal.TerminalBuffer;
 import com.termux.terminal.WcWidth;
-import com.codex.sshterminal.R;
+import com.stefan73.swipessh.R;
 import com.termux.view.TerminalView;
 
 public class TextSelectionCursorController implements CursorController {
@@ -405,3 +405,4 @@ public class TextSelectionCursorController implements CursorController {
     }
 
 }
+
