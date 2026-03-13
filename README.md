@@ -5,7 +5,7 @@
 </p>
 
 SwipeSSH is a lightweight SSH client for Android focused on a smooth multi-session workflow.
-Sessions stay active while you switch between them, and you can quickly move between terminals with a swipe gesture. Connection settings can be stored for reuse, and the terminal supports full ANSI features.
+Sessions stay active while you switch between them, and you can quickly move between terminals by swiping on the connection title bar. Connection settings can be stored for reuse, and the terminal supports full ANSI features.
 
 ## Screenshots
 
@@ -17,7 +17,7 @@ Sessions stay active while you switch between them, and you can quickly move bet
 
 ## Features
 
-- Swipe between multiple SSH sessions
+- Swipe between multiple SSH sessions on the connection title bar
 - Sessions remain active in the background
 - Store and reuse connection settings
 - Full ANSI terminal support
@@ -44,3 +44,4 @@ Third-party components used by this project include:
 - Bouncy Castle cryptography provider (`bcprov-jdk18on`), used under its upstream permissive license terms
 
 See `LICENSE` and `THIRD_PARTY_NOTICES.md`.
+
